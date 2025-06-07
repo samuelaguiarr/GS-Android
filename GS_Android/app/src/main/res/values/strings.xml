@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Eventos Extremos</string>
+    <string name="edt_local">Nome do Local</string>
+    <string name="edt_evento">Tipo do Evento Extremo</string>
+    <string name="edt_impacto">Grau do Impacto</string>
+    <string name="edt_data">Data do Evento</string>
+    <string name="edt_afetadas">Número Estimado de Pessoas Afetadas</string>
+    <string name="btn_incluir">Incluir</string>
+    <string name="recycler_view_description">Lista de Eventos Extremos</string>
+    <string name="btn_mostrar_popup">Mostrar Integrantes</string>
+    <string name="error_empty_fields">Preencha todos os campos</string>
+    <string name="error_invalid_number">Número de afetados deve ser maior que zero</string>
+    <string name="integrantes_title">Integrantes</string>
+    <string name="integrantes_message">Samuel Schaeffer Aguiar - 550212\nCesar Iglesias Balseiro Neto - 98007</string>
+    <string name="ok">OK</string>
+</resources>

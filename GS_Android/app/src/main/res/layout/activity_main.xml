@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/purple_700"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nome do local"
+                android:inputType="textPersonName"
+                android:backgroundTint="@color/purple_500"
+                android:padding="12dp"
+                android:layout_marginBottom="12dp"/>
+
+            <EditText
+                android:id="@+id/editEvento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tipo de evento"
+                android:inputType="text"
+                android:backgroundTint="@color/purple_500"
+                android:padding="12dp"
+                android:layout_marginBottom="12dp"/>
+
+            <EditText
+                android:id="@+id/editImpacto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Grau de impacto"
+                android:inputType="text"
+                android:backgroundTint="@color/purple_500"
+                android:padding="12dp"
+                android:layout_marginBottom="12dp"/>
+
+            <EditText
+                android:id="@+id/editData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Data do evento"
+                android:inputType="datetime"
+                android:backgroundTint="@color/purple_500"
+                android:padding="12dp"
+                android:layout_marginBottom="12dp"/>
+
+            <EditText
+                android:id="@+id/editAfetadas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Número de afetadas"
+                android:inputType="number"
+                android:backgroundTint="@color/purple_500"
+                android:padding="12dp"
+                android:layout_marginBottom="16dp"/>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Incluir"
+                android:backgroundTint="@color/purple_700"
+                android:textColor="@android:color/white"
+                android:padding="12dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+    <Button
+        android:id="@+id/btnMostrarPopup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Integrantes"
+        android:padding="16dp"
+        android:backgroundTint="@color/purple_700"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_margin="12dp"/>
+
+</LinearLayout>
