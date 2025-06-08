@@ -40,5 +40,7 @@
 
 </br>
 
-<p>Palavra exibindo “Número estimado de pessoas afetadas menor que zero”:</p>
+<p> Palavra exibindo “Número estimado de pessoas afetadas menor que zero”:</p>
+
 ![image](https://github.com/user-attachments/assets/5a10f601-c799-490b-b4cd-ee135711cf21)
+
