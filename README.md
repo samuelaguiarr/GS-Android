@@ -1,3 +1,4 @@
+
 # **GS DE KOTLIN**
 
 ### **Integrantes:**
@@ -97,4 +98,29 @@ Imagem da equipe de desenvolvimento, mostrando os integrantes do projeto.
 ---
 
 ### **Campo que Deve Ser Preenchido:**
-... (27 linhas)
+![image](https://github.com/user-attachments/assets/001afe34-c24e-4098-a0ea-d3c9fe7a4737)
+
+Aqui está o campo de "Número estimado de pessoas afetadas", que deve ser preenchido corretamente para evitar erros.
+
+---
+
+### **Erro: Número Estimado de Pessoas Menor que Zero:**
+![image](https://github.com/user-attachments/assets/5a10f601-c799-490b-b4cd-ee135711cf21)
+
+Caso o valor inserido seja inválido (menor que zero), uma mensagem de erro será exibida, alertando o usuário.
+
+---
+
+## **Tecnologias Utilizadas:**
+
+- **Kotlin**: Linguagem de programação usada para o desenvolvimento do aplicativo.
+- **Android Studio**: IDE utilizada para desenvolvimento e testes do aplicativo.
+- **Android SDK**: Ferramentas do Android utilizadas para criar a interface e a lógica do aplicativo.
+
+---
+
+## **Conclusão:**
+
+Este projeto oferece uma interface simples e funcional para o cadastro e gerenciamento de eventos extremos. Com o uso de Kotlin e Android Studio, conseguimos implementar uma solução eficiente e intuitiva para os usuários, com recursos como inclusão, exclusão e visualização de eventos em tempo real.
+
+Se houver mais dúvidas ou se precisar de ajuda com a execução do projeto, não hesite em nos contatar!
